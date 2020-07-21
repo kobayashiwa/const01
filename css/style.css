@@ -127,6 +127,7 @@ header .container .flex {
 }
 .LmContainer .container .detail {
 	width: 60%;
+	padding: 80px;
 }
 
 /**
