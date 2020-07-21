@@ -96,6 +96,10 @@ header .container .flex {
 .header-right ul li a:hover {
 	color: rgb(255, 255, 255, 0.8);
 }
+.Masthead {
+	background-image: url(../image/GettyImages-140559239.jpg);
+	background-size: cover;
+}
 
 /**
 
