@@ -11,6 +11,9 @@ body {
 a {
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+}
 ul, li {
 	list-style: none;
 	margin: 0;
@@ -157,6 +160,28 @@ header .container .flex {
 .detail .text {
 	font-size: 16px;
 	line-height: 1.5;
+	margin-bottom: 24px;
+}
+.with-arrow {
+	color: #297CBB;
+	font-weight: 300;
+	display: inline-block;
+	position: relative;
+}
+.with-arrow span {
+	padding-right: 1em;
+}
+.with-arrow span::after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 6px;
+	height: 6px;
+	border-top: 1px solid #297CBB;
+	border-right: 1px solid #297CBB;
+	transform: rotate(45deg);
+	margin-top: -3px;
 }
 
 /**
