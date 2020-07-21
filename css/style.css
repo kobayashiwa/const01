@@ -123,6 +123,7 @@ header .container .flex {
 }
 .LmContainer .container .cover img {
 	width: 100%;
+	border-radius: 6px;
 }
 .LmContainer .container .detail {
 	width: 60%;
