@@ -108,10 +108,16 @@ header .container .flex {
 .main-logo img {
 	width: 100%;
 }
-.LmContainer .container {
+.LmContainer .container {	
+	position: relative;
+}
+.LmContainer .container .lm {
+	position: absolute;
+	top: -40px;
+	left: 0;
 	display: flex;
 	flex-wrap: wrap;
-}
+}	
 .LmContainer .container .cover{
 	width: 40%;
 }
