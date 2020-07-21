@@ -129,14 +129,31 @@ header .container .flex {
 	width: 60%;
 	padding: 80px;
 }
+.detail h2 {
+	font-size: 14px;
+	color: #8F959E;
+	font-weight: 300;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 2em;
+}
+.detail h2::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	display: inline-block;
+	width: 48px;/*線の長さ*/
+	height: 2px;/*線の太さ*/
+	background-color: #297CBB;/*線の色*/
+	margin-bottom: 0;
+}
 
 /**
 
 
-.PreviousLinks {
-	display: flex;
-	flex-wrap: wrap;
-}
+
 .PreviousLink {
 	width: 50%;
 	position: relative;
