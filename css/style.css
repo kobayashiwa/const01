@@ -103,6 +103,7 @@ header .container .flex {
 .main-logo {
 	max-width: 850px;
 	margin: 0 auto;
+	padding: 180px 24px;
 }
 .main-logo img {
 	width: 100%;
